@@ -1,0 +1,227 @@
+/* top_header */
+#top_header{
+  width: 100%;
+  position: relative;
+}
+#top_header img{
+  width: 100%;
+  height: 100%;
+}
+#top_header .top_header_btn{
+  background: #eb5933;
+  width: 46%;
+  height: 70px;
+  font-size: 28px;
+  letter-spacing: 6px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  bottom: 24%;
+  position: absolute;
+}
+/* top_main */
+#top_main{
+}
+#top_main .goodpoint_bunner{
+  padding: 0 0 120px;
+}
+#top_main .goodpoint_bunner h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: gray;
+  padding: 150px 0 0;
+  line-height: 80px;
+}
+#top_main .goodpoint_bunner>p{
+  font-size: 22px;
+  color: #aaaaaa;
+  padding: 80px 0 0;
+}
+#top_main .goodpoint_bunner h2{
+  font-size: 45px;
+  font-weight: bold;
+  color: #777777;
+  padding: 80px 0 0;
+}
+#top_main .goodpoint_bunner .top_contact{
+  padding: 80px 0 0;
+}
+#top_main .goodpoint_bunner .top_contact .top_contact_btn a{
+  background: #e9ba2f;
+  font-size: 26px;
+  font-weight: bold;
+  width: 310px;
+  height: 70px;
+  text-decoration: none;
+}
+/* good_point1 */
+#top_main .goodpoints{
+  width: 1000px;
+  margin: 0 auto;
+}
+#top_main .goodpoints .good_point1{
+  padding: 50px 0 60px;
+  position: relative;
+}
+#top_main .goodpoints .good_point1 .border_area1{
+  border: solid gray 1px;
+  padding: 80px 90px;
+  width: 50%;
+}
+#top_main .goodpoints .good_point1 img{
+  top: 0;
+  right: 0;
+  position: absolute;  
+}
+/* good_point2 */
+#top_main .goodpoints .good_point2{
+  padding: 50px 0 60px;
+  position: relative;
+}
+#top_main .goodpoints .good_point2 .border_area2{
+  border: solid gray 1px;
+  padding: 80px 0 80px 120px;
+  width: 50%;
+}
+#top_main .goodpoints .good_point2 img{
+  top: 140px;
+  left: 0;
+  position: absolute;  
+}
+/* good_point3 */
+#top_main .goodpoints .good_point3{
+  padding: 50px 0 100px;
+  position: relative;
+}
+#top_main .goodpoints .good_point3 .border_area3{
+  border: solid gray 1px;
+  padding: 80px 90px;
+  width: 50%;
+}
+#top_main .goodpoints .good_point3 img{
+  top: 140px;
+  right: 0;
+  position: absolute;
+}
+/* goodpointの共通部分 */
+#top_main .goodpoints h3{
+  color: skyblue;
+  font-size: 20px;
+  padding: 0 0 50px;
+  letter-spacing: 4px
+}
+#top_main .goodpoints h4{
+  color: #777777;
+  font-size: 20px;
+  padding: 0 0 30px;
+  line-height: 30px;
+}
+#top_main .goodpoints p{
+  color: #777777;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0 0 60px;
+}
+#top_main .goodpoints .read_move_btn{
+  background: #4681a5;
+  color: white;
+  padding: 16px 36px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#top_main .goodpoints img{
+  width: 44%;
+}
+/* お問い合わせ、３０日間プレミアム会員体験エリア */
+#top_main .cnsultation_area{
+  background-image: url("../images/top03.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 490px;
+}
+#top_main .cnsultation_area p{
+  padding: 190px 0 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#top_main .cnsultation_area .btn_area{
+  padding: 90px 50px 0;
+}
+#top_main .cnsultation_area .btn_area .left_btn{
+  background: #e9ba2f;
+  height: 50px;
+  padding: 4px 65px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+#top_main .cnsultation_area .btn_area .right_btn{
+  background: #e9ba2f;
+  height: 50px;
+  padding: 4px 65px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+#top_main .performance_area{
+  padding: 100px 0 120px;
+  width: 1000px;
+  margin: 0 auto;
+}
+#top_main .performance_area h1{
+  color: #777777;
+  font-size: 44px;
+}
+#top_main .performance_area .performance_introduction_area{
+  padding: 90px 0 0;
+}
+#top_main .performance_area .performance_introduction_area .performances{
+}
+#top_main .performance_area .performance_introduction_area .performances img{
+  width: 150px;
+}
+#top_main .performance_area .performance_introduction_area .performances .text_area{
+  padding: 30px 0 0;
+}
+#top_main .performance_area .performance_introduction_area .performances .text_area .number{
+  font-size: 28px;
+  font-family: -webkit-pictograph;
+}
+#top_main .performance_area .performance_introduction_area .performances .text_area .theme{
+  padding: 20px 0 0;
+  font-size: 12px;
+}
+#top_main .voice{
+  padding: 40px 0 120px;
+  width: 1000px;
+  margin: 0 auto;
+}
+#top_main .voice h1{
+  color: #777777;
+  font-size: 38px;
+}
+#top_main .voice .text_area{
+  padding: 60px 0 0;
+}
+#top_main .voice .text_area img{
+  width: 180px;
+  height: 180px;
+}
+#top_main .voice .text_area .text{
+  padding: 0 0 0 80px;
+}
+#top_main .voice .text_area .text h2{
+  font-size: 20px;
+  color: #777777;
+}
+#top_main .voice .text_area .text p{
+  padding: 40px 0 0;
+  font-size: 13px;
+  color: #777777;
+  line-height: 28px;
+}
+

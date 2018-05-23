@@ -1,0 +1,64 @@
+#main{
+  width: 75%;
+  margin: 8% auto 0;
+}
+#main .text_area{
+  padding: 0 0 10%;
+}
+#main .text_area .h1_area{
+  border-bottom: solid 2px #999999
+}
+#main .text_area .h1_area img{
+  width: 60px;
+  border-bottom: solid 2px #4782a3;
+}
+#main .text_area .h1_area h1{
+  padding: 0 0 0 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #555555
+}
+#main .text_area .p_area{
+  padding: 40px 0 0 80px;
+  color: #777777;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+@media(max-width:1000px){
+#main{
+}
+#main .text_area{
+}
+#main .text_area .h1_area{
+}
+#main .text_area .h1_area img{
+}
+#main .text_area .h1_area h1{
+}
+#main .text_area .p_area{
+}
+}
+@media(max-width:770px){
+#main{
+  width: 90%;
+  padding: 0 0 10px;
+}
+#main .text_area{
+}
+#main .text_area .h1_area{
+}
+#main .text_area .h1_area img{
+  width: 40px;
+}
+#main .text_area .h1_area h1{
+  font-size: 14px;
+  line-height: 20px;
+}
+#main .text_area .p_area{
+  padding: 20px 0 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+}
