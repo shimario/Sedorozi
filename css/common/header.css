@@ -1,10 +1,5 @@
 #header{
-  width: 100%;
   position: relative;
-}
-#header img{
-  width: 100%;
-  height: 100%;
 }
 #header .header_btn{
   background: #eb5933;
@@ -13,7 +8,6 @@
   font-size: 18px;
   letter-spacing: 6px;
   border-radius: 20px;
-  text-decoration: none;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -22,24 +16,16 @@
 }
 
 @media(max-width:1000px){
-#header{
-}
-#header img{
-}
-#header .header_btn{
-  height: 54px;
-  font-size: 14px;
-  letter-spacing: 0;
-}
+  #header .header_btn{
+    letter-spacing: 0;
+  }
 }
 
 @media(max-width:770px){
-#header{
-}
-#header img{
-}
-#header .header_btn{
-  height: 30px;
-  font-size: 10px;
-}
+  #header .header_btn{
+    height: 50px;
+    width: 40%;    
+    border-radius: 50px;    
+    font-size: 12px;
+  }
 }
