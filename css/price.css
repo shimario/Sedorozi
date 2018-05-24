@@ -115,7 +115,7 @@
   flex: 1;
 }
 #main .possible_request .requests:nth-child(2){
-  margin: 0 10%;
+  margin: 0 15%;
 }
 #main .possible_request .requests img{
   width: 100%;
