@@ -158,234 +158,234 @@
 }
 
 @media(max-width:1000px){
-#main{
-  width: 80%;
-}
-/* 実務費用 */
-#main .practical_cost{
-  padding: 80px 0;
-}
-#main .h1_area{
-}
-#main .h1_area .sqare{
-}
-#main .h1_area h1{
-}
-#main .practical_cost .plan_area{ 
-}
-#main .practical_cost .plan_area .plans{
-  width: 200px;
-}
-#main .practical_cost .plan_area .plans h2{
-  font-size: 16px;
-}
-#main .practical_cost .plan_area .plans img{
-}
-#main .practical_cost .plan_area .plans p{
-  font-size: 12px;
-}
-#main .practical_cost .orange_border{
-  padding: 10px 0 10px 20px;
-}
-#main .practical_cost .orange_border p{
-}
-#main .practical_cost .notes{
-}
-#main .practical_cost .notes p{
-}
-/* 月額料金プラン */
-#main .monthly_price_plan{
-}
-#main .monthly_price_plan img{
-}
-#main .monthly_price_plan .btn{
-  font-size: 14px;
-  bottom: 170px;
-}
-/* 出品手数料一覧 */
-#main .fee_list{
-}
-#main .fee_list table{
-}
-#main .fee_list table .thin{
-}
-#main .fee_list table tr{
-}
-#main .fee_list table .plan{
-}
-#main .fee_list table tr th{
-}
-#main .fee_list table tr .kind,.target{
-}
-#main .fee_list table tr .premium_plan{
-}
-#main .fee_list table tr .standard_plan{
-}
-#main .fee_list table tr .commission{
-}
-#main .fee_list table tr .plan{
-}
-/* こんなことも依頼可能 */
-#main .possible_request{
-}
-#main .possible_request img{
-}
-#main .possible_request .request_list{
-}
-#main .possible_request .requests{
-}
-#main .possible_request .requests img{
-}
-#main .possible_request .requests h1{
-}
-#main .possible_request .requests p{
-}
-#main .possible_request .btn_area{
-}
-#main .possible_request .btn_area .btn{
-  width: 280px;
-}
-#main .possible_request .end_img_area{
-}
-#main .possible_request .end_img_area .end_img{
-}
+  #main{
+    width: 80%;
+  }
+  /* 実務費用 */
+  #main .practical_cost{
+    padding: 80px 0;
+  }
+  #main .h1_area{
+  }
+  #main .h1_area .sqare{
+  }
+  #main .h1_area h1{
+  }
+  #main .practical_cost .plan_area{ 
+  }
+  #main .practical_cost .plan_area .plans{
+    width: 200px;
+  }
+  #main .practical_cost .plan_area .plans h2{
+    font-size: 16px;
+  }
+  #main .practical_cost .plan_area .plans img{
+  }
+  #main .practical_cost .plan_area .plans p{
+    font-size: 12px;
+  }
+  #main .practical_cost .orange_border{
+    padding: 10px 0 10px 20px;
+  }
+  #main .practical_cost .orange_border p{
+  }
+  #main .practical_cost .notes{
+  }
+  #main .practical_cost .notes p{
+  }
+  /* 月額料金プラン */
+  #main .monthly_price_plan{
+  }
+  #main .monthly_price_plan img{
+  }
+  #main .monthly_price_plan .btn{
+    font-size: 14px;
+    bottom: 170px;
+  }
+  /* 出品手数料一覧 */
+  #main .fee_list{
+  }
+  #main .fee_list table{
+  }
+  #main .fee_list table .thin{
+  }
+  #main .fee_list table tr{
+  }
+  #main .fee_list table .plan{
+  }
+  #main .fee_list table tr th{
+  }
+  #main .fee_list table tr .kind,.target{
+  }
+  #main .fee_list table tr .premium_plan{
+  }
+  #main .fee_list table tr .standard_plan{
+  }
+  #main .fee_list table tr .commission{
+  }
+  #main .fee_list table tr .plan{
+  }
+  /* こんなことも依頼可能 */
+  #main .possible_request{
+  }
+  #main .possible_request img{
+  }
+  #main .possible_request .request_list{
+  }
+  #main .possible_request .requests{
+  }
+  #main .possible_request .requests img{
+  }
+  #main .possible_request .requests h1{
+  }
+  #main .possible_request .requests p{
+  }
+  #main .possible_request .btn_area{
+  }
+  #main .possible_request .btn_area .btn{
+    width: 280px;
+  }
+  #main .possible_request .end_img_area{
+  }
+  #main .possible_request .end_img_area .end_img{
+  }
 }
 
 @media(max-width:770px){
-#main{
-  width: 90%;
-  position: relative;
-}
-/* 実務費用 */
-#main .practical_cost{
-  padding: 50px 0;
-}
-#main .h1_area{
-  padding: 0 0 30px;
-}
-#main .h1_area .sqare{
-}
-#main .h1_area h1{
-  font-size: 24px;
-}
-#main .practical_cost .plan_area{ 
-  flex-flow: column;
-  padding: 0 0 30px;
-}
-#main .practical_cost .plan_area .plans{
-  padding: 0 0 40px;
-  width: 100%;
-}
-#main .practical_cost .plan_area .plans h2{
-  padding: 0 0 5px;
-  font-size: 20px;
-}
-#main .practical_cost .plan_area .plans img{
-}
-#main .practical_cost .plan_area .plans p{
-  padding: 5px 0 0;
-  font-size: 14px;
-  width: 100%;
-}
-#main .practical_cost .orange_border{
-  border: solid 3px orange;
-  padding: 5px 0 5px 10px;
-}
-#main .practical_cost .orange_border p{
-  font-size: 12px;
-}
-#main .practical_cost .notes{
-}
-#main .practical_cost .notes p{
-  font-size: 12px;
-}
-/* 月額料金プラン */
-#main .monthly_price_plan{
-  padding: 0 0 50px;
-}
-#main .monthly_price_plan .enable{
-  display: none;
-}
-#main .monthly_price_plan .btn{
-  width: 25%;
-  height: 4%;
-  font-size: 10px;
-  bottom: 70px;
-  border-radius: 10px;
-}
-/* 出品手数料一覧 */
-#main .fee_list{
-  padding: 0 0 50px;
-}
-#main .fee_list table{
-  overflow: auto;
-  white-space: nowrap;
-  display: block;
-  width: auto;
-}
-table::-webkit-scrollbar {
-	height: 5px;
-}
-table::-webkit-scrollbar-track {
-	background: #F1F1F1;
-}
-table::-webkit-scrollbar-thumb {
-	background: #BCBCBC;
-}
-#main .fee_list table .thin{
-}
-#main .fee_list table tr{
-}
-#main .fee_list table tr th{
-}
-#main .fee_list table tr .kind,.target{
-}
-#main .fee_list table tr .premium_plan{
-  font-size: 14px;
-}
-#main .fee_list table tr .standard_plan{
-  font-size: 14px;
-}
-#main .fee_list table tr .commission{
-  font-size: 14px;
-}
-#main .fee_list table .plan{
-  min-width: 100px;
-}
-/* こんなことも依頼可能 */
-#main .possible_request{
-}
-#main .possible_request .enable{
-  display: none;
-}
-#main .possible_request .request_list{
-  flex-direction: column;
-  padding: 0 0 40px;
-}
-#main .possible_request .requests{
-  /* width: 50%; */
-  margin: 0 auto;
-}
-#main .possible_request .requests img{
-  padding: 40px 0 0;
-}
-#main .possible_request .requests h1{
-  padding: 10px 0 0;
-}
-#main .possible_request .requests p{
-  padding: 10px 0 0;
-}
-#main .possible_request .btn_area{
-  flex-direction: column;
-}
-#main .possible_request .btn_area .btn{
-  width: 60%;
-  margin: 3% auto;
-  font-size: 14px;
-}
-#main .possible_request .end_img_area{
-}
-#main .possible_request .end_img_area .end_img{
-  display: none;
-}
+  #main{
+    width: 90%;
+    position: relative;
+  }
+  /* 実務費用 */
+  #main .practical_cost{
+    padding: 50px 0;
+  }
+  #main .h1_area{
+    padding: 0 0 30px;
+  }
+  #main .h1_area .sqare{
+  }
+  #main .h1_area h1{
+    font-size: 24px;
+  }
+  #main .practical_cost .plan_area{ 
+    flex-flow: column;
+    padding: 0 0 30px;
+  }
+  #main .practical_cost .plan_area .plans{
+    padding: 0 0 40px;
+    width: 100%;
+  }
+  #main .practical_cost .plan_area .plans h2{
+    padding: 0 0 5px;
+    font-size: 20px;
+  }
+  #main .practical_cost .plan_area .plans img{
+  }
+  #main .practical_cost .plan_area .plans p{
+    padding: 5px 0 0;
+    font-size: 14px;
+    width: 100%;
+  }
+  #main .practical_cost .orange_border{
+    border: solid 3px orange;
+    padding: 5px 0 5px 10px;
+  }
+  #main .practical_cost .orange_border p{
+    font-size: 12px;
+  }
+  #main .practical_cost .notes{
+  }
+  #main .practical_cost .notes p{
+    font-size: 12px;
+  }
+  /* 月額料金プラン */
+  #main .monthly_price_plan{
+    padding: 0 0 50px;
+  }
+  #main .monthly_price_plan .enable{
+    display: none;
+  }
+  #main .monthly_price_plan .btn{
+    width: 25%;
+    height: 4%;
+    font-size: 10px;
+    bottom: 70px;
+    border-radius: 10px;
+  }
+  /* 出品手数料一覧 */
+  #main .fee_list{
+    padding: 0 0 50px;
+  }
+  #main .fee_list table{
+    overflow: auto;
+    white-space: nowrap;
+    display: block;
+    width: auto;
+  }
+  table::-webkit-scrollbar {
+    height: 5px;
+  }
+  table::-webkit-scrollbar-track {
+    background: #F1F1F1;
+  }
+  table::-webkit-scrollbar-thumb {
+    background: #BCBCBC;
+  }
+  #main .fee_list table .thin{
+  }
+  #main .fee_list table tr{
+  }
+  #main .fee_list table tr th{
+  }
+  #main .fee_list table tr .kind,.target{
+  }
+  #main .fee_list table tr .premium_plan{
+    font-size: 14px;
+  }
+  #main .fee_list table tr .standard_plan{
+    font-size: 14px;
+  }
+  #main .fee_list table tr .commission{
+    font-size: 14px;
+  }
+  #main .fee_list table .plan{
+    min-width: 100px;
+  }
+  /* こんなことも依頼可能 */
+  #main .possible_request{
+  }
+  #main .possible_request .enable{
+    display: none;
+  }
+  #main .possible_request .request_list{
+    flex-direction: column;
+    padding: 0 0 40px;
+  }
+  #main .possible_request .requests{
+    /* width: 50%; */
+    margin: 0 auto;
+  }
+  #main .possible_request .requests img{
+    padding: 40px 0 0;
+  }
+  #main .possible_request .requests h1{
+    padding: 10px 0 0;
+  }
+  #main .possible_request .requests p{
+    padding: 10px 0 0;
+  }
+  #main .possible_request .btn_area{
+    flex-direction: column;
+  }
+  #main .possible_request .btn_area .btn{
+    width: 60%;
+    margin: 3% auto;
+    font-size: 14px;
+  }
+  #main .possible_request .end_img_area{
+  }
+  #main .possible_request .end_img_area .end_img{
+    display: none;
+  }
 }

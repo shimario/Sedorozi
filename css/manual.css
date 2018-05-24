@@ -2,129 +2,92 @@
   width: 950px;
   margin: 10% auto;
 }
-#main .top{
-  position: relative
+#main .point_section{
+  position: relative;
+  height: 700px;
 }
-#main .top .apply_area{
+#main .point_section .apply_area{
+  position: absolute;
+  z-index: 1;
   background: white;
-  width: 470px;;
   padding: 60px 80px;
 }
-#main .top .apply_area h1{
+#main .point_section .apply_area > * + * {
+  padding: 50px 0 0;
+}
+#main .point_section .apply_area h1{
   font-size: 30px;
   font-weight: bold;
   line-height: 40px;
   letter-spacing: 3px;
 }
-#main .top .apply_area .points_area{
-  padding: 50px 0 0;
-}
-#main .top .apply_area .points_area p{
+#main .point_section .apply_area .points_area li{
   line-height: 28px;
 }
-#main .top .apply_area .points_area .btn_area{
-  padding: 50px 0 0;
-}
-#main .top .apply_area .points_area .btn_area .btn{
+#main .point_section .apply_area .btn_area .btn{
   background: #eb5933;
   width: 260px;
   height: 54px;
   border-radius: 20px;
   font-size: 18px;
-  text-decoration: none;
 }
-#main .top img{
-  width: 450px;
-  top: 320px;
-  right: -15px;
+#main .point_section .point_section_img{
   position: absolute;
-  z-index: -1;
+  width: 450px;
+  bottom: 0;
+  right: 0;
 }
-#main .bottom{
-}
-#main .bottom img{
-  width: 100%;
-  margin: 40% auto 0;
+#main .bottom {
+  margin: 10% auto;
 }
 
 @media(max-width:1000px){
-#main{
-  width: 700px;
-  margin: 7% auto;
-}
-#main .top{
-}
-#main .top .apply_area{
-  width: 400px;
-  padding: 30px 40px;
-}
-#main .top .apply_area h1{
-  font-size: 20px;
-}
-#main .top .apply_area .points_area{
-  padding: 30px 0 0;
-  font-size: 14px;
-}
-#main .top .apply_area .points_area p{
-}
-#main .top .apply_area .points_area .btn_area{
-  padding: 30px 0 0;  
-}
-#main .top .apply_area .points_area .btn_area .btn{
-  width: 200px;
-  height: 40px;
-  font-size: 15px;
-  border-radius: 13px;
-}
-#main .top img{
-  width: 300px;
-  top: 260px;
-}
-#main .bottom{
-}
-#main .bottom img{
-  margin: 30% auto 0;
-}
+  #main{
+    width: 90%;
+  }
+  #main .point_section{
+    height: 500px;
+  }
+  #main .point_section .apply_area{
+    padding: 60px 10%;
+  }
+  #main .point_section .apply_area > * + * {
+    padding: 30px 0 0;
+  }
+  #main .point_section .apply_area h1{
+    font-size: 24px;
+  }
+  #main .point_section .apply_area .points_area .btn_area .btn{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 13px;
+  }
+  #main .point_section .point_section_img{
+    width: 44%;
+  }
 }
 
 @media(max-width:770px){
-#main{
-  width: 90%;
-  margin: 1% auto;
-}
-#main .top{
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
-}
-#main .top .apply_area{
-  width: 100%;
-  padding: 30px 0;
-  box-shadow: none;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-#main .top .apply_area h1{
-}
-#main .top .apply_area .points_area{
-}
-#main .top .apply_area .points_area p{
-}
-#main .top .apply_area .points_area .btn_area{
-  display: flex;
-  justify-content: center;
-}
-#main .top .apply_area .points_area .btn_area .btn{
-}
-#main .top img{
-  width: 100%;
-  position: static;
-}
-#main .bottom{
-}
-#main .bottom img{
-  margin: 10% auto 0;
-}
-}
+  #main .point_section{
+    height: auto;
+  }
+  #main .point_section .apply_area{
+    position: initial;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main .point_section .apply_area h1 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  #main .point_section .apply_area .points_area li{
+    font-size: 14px;    
+    line-height: 1.6;
+  }  
+  .point_section_img {
+    display: none;
+  }
 }
