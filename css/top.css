@@ -1,10 +1,8 @@
 /* top_header */
 #top_header{
-  width: 100%;
   position: relative;
 }
 #top_header img{
-  width: 100%;
   height: 100%;
 }
 #top_header .top_header_btn{
@@ -14,16 +12,11 @@
   font-size: 28px;
   letter-spacing: 6px;
   border-radius: 50px;
-  text-decoration: none;
-  margin: auto auto;
-  left: 0;
-  right: 0;
-  bottom: 24%;
+  margin: 0 auto;
+  bottom: 22%;
   position: absolute;
 }
 /* top_main */
-#top_main{
-}
 #top_main .goodpoint_bunner{
   padding: 0 0 120px;
 }
@@ -54,13 +47,13 @@
   font-weight: bold;
   width: 310px;
   height: 70px;
-  text-decoration: none;
 }
-/* good_point1 */
+/* good_point */
 #top_main .goodpoints{
-  width: 1000px;
+  width: 970px;
   margin: 0 auto;
 }
+/* good_point1 */
 #top_main .goodpoints .good_point1{
   padding: 50px 0 60px;
   position: relative;
@@ -70,10 +63,10 @@
   padding: 80px 90px;
   width: 50%;
 }
-#top_main .goodpoints .good_point1 img{
+#top_main .goodpoints img{
   top: 0;
   right: 0;
-  position: absolute;  
+  position: absolute;
 }
 /* good_point2 */
 #top_main .goodpoints .good_point2{
@@ -88,7 +81,7 @@
 #top_main .goodpoints .good_point2 img{
   top: 140px;
   left: 0;
-  position: absolute;  
+  position: absolute;
 }
 /* good_point3 */
 #top_main .goodpoints .good_point3{
@@ -128,7 +121,6 @@
   background: #4681a5;
   color: white;
   padding: 16px 36px;
-  text-decoration: none;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -140,36 +132,28 @@
   background-image: url("../images/top03.png");
   background-size: cover;
   background-position: 50% 50%;
-  width: 100%;
   height: 490px;
 }
 #top_main .cnsultation_area p{
-  padding: 190px 0 0;
   font-size: 18px;
   letter-spacing: 2px;
 }
 #top_main .cnsultation_area .btn_area{
-  padding: 90px 50px 0;
+  width: 800px;
+  padding: 50px 0 0;
 }
-#top_main .cnsultation_area .btn_area .left_btn{
-  background: #e9ba2f;
-  height: 50px;
-  padding: 4px 65px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-decoration: none;
-}
+#top_main .cnsultation_area .btn_area .left_btn,
 #top_main .cnsultation_area .btn_area .right_btn{
   background: #e9ba2f;
   height: 50px;
   padding: 4px 65px;
   font-weight: bold;
   letter-spacing: 2px;
-  text-decoration: none;
 }
+/* 実績 */
 #top_main .performance_area{
-  padding: 100px 0 120px;
-  width: 1000px;
+  padding: 100px 0;
+  width: 970px;
   margin: 0 auto;
 }
 #top_main .performance_area h1{
@@ -178,8 +162,6 @@
 }
 #top_main .performance_area .performance_introduction_area{
   padding: 90px 0 0;
-}
-#top_main .performance_area .performance_introduction_area .performances{
 }
 #top_main .performance_area .performance_introduction_area .performances img{
   width: 150px;
@@ -195,9 +177,10 @@
   padding: 20px 0 0;
   font-size: 12px;
 }
+/* お客様の声 */
 #top_main .voice{
   padding: 40px 0 120px;
-  width: 1000px;
+  width: 970px;
   margin: 0 auto;
 }
 #top_main .voice h1{
@@ -223,5 +206,227 @@
   font-size: 13px;
   color: #777777;
   line-height: 28px;
+}
+
+  @media(max-width:1000px){
+  /* top_header */
+  #top_header .top_header_btn{
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+  }
+  /* top_main */
+  #top_main .goodpoint_bunner h1{
+    padding: 100px 0 0;
+  }
+  #top_main .goodpoint_bunner>p,
+  #top_main .goodpoint_bunner h2,
+  #top_main .goodpoint_bunner .top_contact{
+    padding: 50px 0 0;
+  }
+  /* good_point */
+  #top_main .goodpoints{
+    width: 750px;
+  }
+  /* good_point1 */
+  #top_main .goodpoints .good_point1 .border_area1{
+    padding: 50px;
+  }
+  /* good_point2 */
+  #top_main .goodpoints .good_point2 .border_area2{
+    padding: 50px 0 50px 70px;
+  }
+  /* good_point3 */
+  #top_main .goodpoints .good_point3 .border_area3{
+    padding: 50px;
+  }
+  /* お問い合わせ、３０日間プレミアム会員体験エリア */
+  #top_main .cnsultation_area{
+    height: 300px;
+  }
+  #top_main .cnsultation_area p{
+    font-size: 15px;
+  }
+  #top_main .cnsultation_area .btn_area{
+    width: 700px;
+  }
+  #top_main .cnsultation_area .btn_area .left_btn{
+    padding: 3px 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  #top_main .cnsultation_area .btn_area .right_btn{
+    padding: 3px 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  /* 実績 */
+  #top_main .performance_area{
+    width: 750px;
+  }
+  /* お客様の声 */
+  #top_main .voice{
+    width: 750px;
+  }
+  #top_main .voice .text_area .text{
+    padding: 0 0 0 50px;
+  }
+  
+@media(max-width:770px){
+  /* top_header */
+  #top_header .top_header_btn{
+    width: 38%;
+    height: 30px;
+    font-size: 11px;
+    letter-spacing: 0px;
+  }
+  /* top_main */
+  #top_main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #top_main .goodpoint_bunner{
+    width: 90%;
+    padding: 0;
+  }
+  #top_main .goodpoint_bunner h1{
+    font-size: 30px;
+    line-height: 1.6;
+    padding: 50px 0 0;
+  }
+  #top_main .goodpoint_bunner>p{
+    font-size: 18px;
+    padding: 30px 0 0;
+  }
+  #top_main .goodpoint_bunner h2{
+    font-size: 30px;
+    padding: 30px 0 0;
+  }
+  #top_main .goodpoint_bunner .top_contact{
+    padding: 30px 0 0;
+  }
+  #top_main .goodpoint_bunner .top_contact .top_contact_btn a{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+  }
+  /* good_point */
+  #top_main .goodpoints{
+    width: 90%;
+  }
+  /* good_point1 */
+  #top_main .goodpoints .good_point1{
+    padding: 20px 0;
+  }
+  #top_main .goodpoints .good_point1 .border_area1{
+    border: none;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* good_point2 */
+  #top_main .goodpoints .good_point2{
+    padding: 20px 0;
+  }
+  #top_main .goodpoints .good_point2 .border_area2{
+    border: none;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* good_point3 */
+  #top_main .goodpoints .good_point3{
+    padding: 20px 0;
+  }
+  #top_main .goodpoints .good_point3 .border_area3{
+    border: none;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  /* goodpointの共通部分 */
+  #top_main .goodpoints h3,
+  #top_main .goodpoints h4,
+  #top_main .goodpoints p{
+    padding: 0 0 20px;
+  }
+  #top_main .goodpoints .read_move_btn{
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+  #top_main .goodpoints img{
+    display: none;
+  }
+  /* お問い合わせ、３０日間プレミアム会員体験エリア */
+  #top_main .cnsultation_area{
+    width: 100%;
+  }
+  #top_main .cnsultation_area p{
+    width: 450px;
+    text-align: center;
+    line-height: 1.5
+  }
+  #top_main .cnsultation_area .btn_area{
+    width: 500px;
+  }
+  #top_main .cnsultation_area .btn_area .left_btn,
+  #top_main .cnsultation_area .btn_area .right_btn{
+    padding: 0 20px;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+  /* 実績 */
+  #top_main .performance_area{
+    width: 90%;
+    padding: 50px 0;
+  }
+  #top_main .performance_area h1{
+    font-size: 38px;
+  }
+  #top_main .performance_area .performance_introduction_area{
+    padding: 30px 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  #top_main .performance_area .performance_introduction_area .performances{
+    padding: 0 0 30px;
+  }
+  #top_main .performance_area .performance_introduction_area .performances .text_area,
+  #top_main .performance_area .performance_introduction_area .performances .text_area .theme{
+    padding: 10px 0 0;
+  }
+  /* お客様の声 */
+  #top_main .voice{
+    width: 90%;
+    padding: 0 0 50px;
+  }
+  #top_main .voice h1{
+    font-size: 38px;
+  }
+  #top_main .voice .text_area{
+    padding: 30px 0 0;
+  }
+  #top_main .voice .text_area img{
+    width: 150px;
+    height: 150px;
+  }
+  #top_main .voice .text_area .text{
+    padding: 0 0 0 20px;
+  }
+  #top_main .voice .text_area .text h2{
+    font-size: 18px;
+  }
+  #top_main .voice .text_area .text p{
+    padding: 18px 0 0;
+    font-size: 12px;
+  }
 }
 
