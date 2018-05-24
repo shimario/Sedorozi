@@ -5,33 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- css -->
-  <link rel="stylesheet" href="css/common/nav.css">
-  <link rel="stylesheet" href="css/top.css">
-  <link rel="stylesheet" href="css/common/footer.css">
-  <link rel="stylesheet" href="css/common/setting.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"/>
+  <link rel="stylesheet" href="css/common/setting.css">
+  <link rel="stylesheet" href="css/common/nav.css">
+  <link rel="stylesheet" href="css/common/footer.css">
+  <link rel="stylesheet" href="css/top.css">
   <title>トップ</title>
 </head>
-
 <body>
   <!-- nav -->
-  <nav id="nav" class="flex content_between items_center fixed">
+  <nav id="nav" class="flex content_between items_center">
     <div class="nav_left">
       <img src="images/logo.png">
     </div>
     <div class="nav_right flex content_between">
-      <a href="###" class="white">サービス概要</a>
-      <a href="###" class="white">ご利用料金</a>
-      <a href="###" class="white">使い方マニュアル</a>
-      <a href="###" class="white">よくあるご質問</a>
+      <a href="./top.html" class="white">サービス概要</a>
+      <a href="./price.html" class="white">ご利用料金</a>
+      <a href="./manual.html" class="white">使い方マニュアル</a>
+      <a href="./faq.html" class="white">よくあるご質問</a>
     </div>
     <div class="responsive_menu">ハンバーガー</div>
   </nav>
+
   <!-- header -->
   <header id="top_header" class="flex content_center">
     <img src="images/header.png">
     <a href="###" class="top_header_btn white flex content_center items_center text_center box_shadow">30日プレミアム会員体験</a>
   </header>
+
   <!-- main -->
   <main id="top_main" class="flex content_center flow_column">
     <section class="goodpoint_bunner text_center">
@@ -44,6 +45,7 @@
         </div>
       </div>
     </section>
+
     <!-- good_point1 -->
     <section class="goodpoints">
       <div class="good_point1">
@@ -55,6 +57,7 @@
         </div>
         <img src="images/top02_img01.png">
       </div>
+
       <!-- good_point2 -->
       <div class="good_point2 flex content_end">
         <div class="border_area2">
@@ -65,6 +68,7 @@
         </div>
         <img src="images/top02_img02.png">
       </div>
+
       <!-- good_point3 -->
       <div class="good_point3">
         <div class="border_area3">
@@ -76,6 +80,7 @@
         <img src="images/top02_img03.png">
       </div>
     </section>
+
     <section class="cnsultation_area flex flow_column content_center">
       <p class="white flex content_center">関税建替にも対応しており、お客様にあったフレキシブルな対応が可能です。ご相談ください。</p>
       <div class="btn_area flex content_around">
@@ -83,6 +88,7 @@
         <a href="###" class="right_btn box_shadow flex content_center items_center black">３０日プレミアム会員体験</a>
       </div>
     </section>
+
     <section class="performance_area">
       <h1 class="flex content_center">実績</h1>
       <div class="performance_introduction_area flex content_around">
@@ -113,8 +119,10 @@
             <p class="number flex content_center"> 39,785</p>
             <p class="theme flex content_center">納品プラン数</p>
           </div>
-        </div></div>
+        </div>
+      </div>
     </section>
+
     <section class="voice">
       <h1 class="flex content_center">お客様の声</h1>
       <div class="text_area flex">
@@ -129,37 +137,36 @@
         </div>
       </div>
     </section>
+
   </main>
+
   <!-- footer -->
   <footer id="footer">
-    <div class="big_banner">
-      <img src="https://placehold.jp/cc9999/993333/1000x200.png">
-    </div>
-    <div class="menus_area flex content_between">
+    <img src="https://placehold.jp/cc9999/993333/1000x200.png">
+    <div class="menus_area flex">
       <div class="left_area">
-        <h4>Menu</h4>
-        <a href="###" class="table black">ご利用料金</a >
-        <a href="###" class="table black">料金シミュレーション</a >
-        <a href="###" class="table black">弊社の特徴</a >
-        <a href="###" class="table black">使い方マニュアル</a >
-        <a href="###" class="table black">よくあるご質問</a >
+        <p class="footer_menu_title">Menu</p>
+        <a href="./top.html" class="table">サービス概要</a>
+        <a href="./price.html" class="table">ご利用料金</a>
+        <a href="./manual.html" class="table">使い方マニュアル</a>
+        <a href="./faq.html" class="table">よくあるご質問</a>
       </div>
       <div class="right_area">
-        <div class="area_top">
-          <h4>カートまもるくん</h4>
-          <p>出品から価格改定、サンクスメールなんでもそろって月額3,980円で使い放題。</p>
+        <div class="right_area_top">
+          <p class="footer_menu_title">カートまもるくん</p>
+          <p class="footer_menu_text">出品から価格改定、サンクスメールなんでもそろって月額3,980円で使い放題。</p>
         </div>
-        <div class="area_bottom">
-          <h4>ショッピングリサーチャー</h4>
-          <p>Amazonリサーチの決定版。</p>
+        <div>
+          <p class="footer_menu_title">ショッピングリサーチャー</p>
+          <p class="footer_menu_text">Amazonリサーチの決定版。</p>
         </div>
       </div>
     </div>
-    <div class="street_address flex content_center items_center white">
-      物流倉庫 : 埼玉県戸田市笹目南町18-18 <br class="responsive_br">平日10:00~18:00 / 定休日 土・日・祝祭日
+    <div class="address flex content_center items_center white">
+      物流倉庫 : 埼玉県戸田市笹目南町18-18 <br style="display:none">平日10:00~18:00 / 定休日 土・日・祝祭日
     </div>
-    <div class="bottom flex content_center items_center white">
-        ⓒ 2017 ,Amazing Logistics Co.,Ltd
+    <div class="copyright flex content_center items_center white">
+      © 2018 AmazeLogi.inc. All Rights Reserved.
     </div>
   </footer>
 </body>
