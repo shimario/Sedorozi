@@ -24,12 +24,10 @@
 #main .point_section .apply_area .points_area li{
   line-height: 28px;
 }
-#main .point_section .apply_area .btn_area .btn{
-  background: #eb5933;
-  width: 260px;
-  height: 54px;
-  border-radius: 20px;
-  font-size: 18px;
+#main .point_section .apply_area .btn_area .apply_btn{
+  width: 180px;
+  padding: 15px 10px;
+  font-size: 14px;
 }
 #main .point_section .point_section_img{
   position: absolute;
@@ -57,12 +55,6 @@
   #main .point_section .apply_area h1{
     font-size: 24px;
   }
-  #main .point_section .apply_area .points_area .btn_area .btn{
-    width: 200px;
-    height: 40px;
-    font-size: 15px;
-    border-radius: 13px;
-  }
   #main .point_section .point_section_img{
     width: 44%;
   }
@@ -78,6 +70,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 10%;
   }
   #main .point_section .apply_area h1 {
     font-size: 18px;

@@ -1,11 +1,9 @@
 body{
   box-sizing: border-box;
 }
-
 img {
   width: 100%;
 }
-
 a {
   text-decoration: none;
 }
@@ -67,4 +65,22 @@ a {
 }
 .box_shadow2{
   box-shadow: 5px 10px 20px -5px black;
+}
+
+/* button */
+.apply_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: -webkit-linear-gradient(45deg, #ff8b5f 0%, #FFC107 100%);
+  background-image: linear-gradient(45deg, #ff8b5f 0%, #FFC107 100%);
+  transition: .4s;
+}
+.apply_btn:hover {
+  background-image: -webkit-linear-gradient(45deg, #f76a35 0%, #FFC107 100%);
+  background-image: linear-gradient(45deg, #f76a35 0%, #FFC107 100%);
 }
