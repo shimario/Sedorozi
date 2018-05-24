@@ -1,13 +1,11 @@
 #header{
   position: relative;
 }
-#header .header_btn{
-  background: #eb5933;
-  width: 26%;
-  height: 64px;
+#header .apply_btn{
+  width: 280px;
   font-size: 18px;
-  letter-spacing: 6px;
-  border-radius: 20px;
+  letter-spacing: 2px;
+  padding: 20px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -16,16 +14,12 @@
 }
 
 @media(max-width:1000px){
-  #header .header_btn{
-    letter-spacing: 0;
-  }
 }
 
 @media(max-width:770px){
-  #header .header_btn{
-    height: 50px;
-    width: 40%;    
-    border-radius: 50px;    
-    font-size: 12px;
+  #header .apply_btn{
+    width: 180px;
+    padding: 15px 10px;
+    font-size: 14px;
   }
 }

@@ -1,6 +1,26 @@
 #footer{
   background: #c9c9c9;
 }
+#footer .footer_apply_area {
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#footer .footer_apply_title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 40px;
+}
+#footer .footer_apply_btns {
+  display: flex;
+  justify-content: center;
+}
+#footer .footer_apply_btns a {
+  width: 200px;
+  padding: 20px;
+  margin: 0 20px;
+}
 #footer .menus_area{
   width: 75%;
   margin: 3% auto;
@@ -30,6 +50,7 @@
   height: 50px;
   font-size: 13px;
   line-height: 16px;
+  text-align: center;
 }
 #footer .copyright{
   background: #191f39;
@@ -49,6 +70,9 @@
 }
 
 @media(max-width:770px){
+  #footer .footer_apply_btns a {
+    width: 120px;
+  }  
   #footer .menus_area{
     width: 90%;
   }

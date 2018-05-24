@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"/>
   <link rel="stylesheet" href="css/common/setting.css">
+  <link rel="stylesheet" href="css/common/priceTable.css">
   <link rel="stylesheet" href="css/common/header.css">
   <link rel="stylesheet" href="css/common/nav.css">
   <link rel="stylesheet" href="css/common/footer.css">
@@ -30,7 +31,7 @@
   <!-- header -->
   <header id="header">
     <img src="images/price_header.png">
-    <a href="#" class="header_btn white flex content_center items_center box_shadow1">今すぐ申し込む</a>
+    <a href="#" class="apply_btn text_center flex content_center items_center box_shadow1">今すぐ申し込む</a>
   </header>
   
   <!-- main -->
@@ -70,16 +71,47 @@
         <p>※XXXXXXXXXX（CS✔も必要なため内容待ってください）</p>
       </div>
     </section>
+    
     <section class="monthly_price_plan">
       <div class="h1_area flex items_center">
         <div class="sqare"></div>
         <h1>月額料金プラン</h1>
       </div>
-      <img src="images/plan.png">
-      <a href="###" class="btn flex content_center items_center white box_shadow1">
-        今すぐ申し込む
-      </a href="###">
+      <div class="promos">  
+        <div class="promo">
+          <h4>自分で出品</h4>
+          <ul class="features">
+            <li class="price">-</span></li>
+            <li class="brief">こんなに大変</li>
+            <li>梱包・検品・配送を全て自分で行う</li>
+            <li>商品の保管場所に困る</li>
+            <li>他の作業をする時間がなくなる</li>
+          </ul>
+        </div>
+        <div class="promo scale">
+          <h4>プレミアム</h4>
+          <ul class="features">
+            <li class="subTitle">月に100点以上FBAに納入されている方は<br>プレミアムプランが断然お得！</li>
+            <li class="price">10,800円 <span>/月</span></li>
+            <li class="brief">こんな方にオススメ</li>            
+            <li>FBAに100点/月以上納入している</li>
+            <li>これから外注しようとお考えの方</li>
+            <li>中古品の商品画像をたくさんアップし、<br>高利益・高回転で商品を売りたいと思っている方</li>
+            <a href="#" class="apply_btn">申し込む</a>
+          </ul>
+        </div>  
+        <div class="promo">
+          <h4>スタンダード</h4>
+          <ul class="features">
+            <li class="price">無料</li>
+            <li class="brief">まずは試したい方へ</li>
+            <li>少量をFBAに納入している</li>
+            <li>とりあえず試してみたい</li>
+          </ul>
+        </div>
+      </div>
     </section>
+    
     <section class="fee_list">
       <div class="h1_area flex items_center">
         <div class="sqare"></div>
@@ -160,7 +192,6 @@
         <div class="sqare"></div>
         <h1>こんなことも依頼可能</h1>
       </div>
-      <img src="images/enable_top.png" class="enable">
       <div class="request_list flex content_between">
         <div class="requests flex flow_column items_center">
           <img src="images/enable01.png">
@@ -178,7 +209,7 @@
           <p class="text_center">中古商品の出品時に必要な<br>商品撮影も代行します</p>
         </div>
       </div>
-      <div class="btn_area flex content_between">
+      <div class="btn_area flex content_center">
         <a href="###" class="btn flex content_center items_center white">料金シミュレーションをする</a>
         <a href="###" class="btn flex content_center items_center white">料金詳細を確認する</a>
       </div>
@@ -190,7 +221,13 @@
   
   <!-- footer -->
   <footer id="footer">
-    <img src="https://placehold.jp/cc9999/993333/1000x200.png">
+    <div class="footer_apply_area">
+      <p class="footer_apply_title">24時間受け付け中！</p>
+      <div class="footer_apply_btns">
+        <a class="apply_btn" href="#">30日無料体験</a>
+        <a class="apply_btn" href="#">お問い合わせ</a>
+      </div>
+    </div>
     <div class="menus_area flex">
       <div class="left_area">
         <p class="footer_menu_title">Menu</p>
