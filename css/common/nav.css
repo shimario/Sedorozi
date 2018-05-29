@@ -16,6 +16,46 @@
   display: none;
   padding: 0 30px 0 0;
 }
+/* smartphone drawer menu */
+#global-nav {
+  display: none;
+}
+/* smartphone drawer menu Button */
+#nav-toggle {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 34px;
+  height: 27px;
+  cursor: pointer;
+  z-index: 101;
+}
+#nav-toggle div {
+  position: relative;
+}
+#nav-toggle span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #d4d4d4;
+  left: 0;
+  -webkit-transition: .35s ease-in-out;
+  -moz-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+  top: 0;
+}
+#nav-toggle span:nth-child(2) {
+  top: 11px;
+}
+#nav-toggle span:nth-child(3) {
+  top: 22px;
+}
+
+
 
 @media(max-width:1000px){
   #nav .nav_left img{
@@ -27,6 +67,9 @@
 }
 
 @media(max-width:770px){
+  #nav {
+    min-height: 43px;
+  }
   #nav .nav_left img{
     width: 60%;
   }
@@ -37,5 +80,53 @@
     font-size: 12px;
     display: flex;
     justify-content: flex-end;
+  }
+  
+  /* smartphone drawer menu */
+  #global-nav {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: -556px;
+    background: #333;
+    text-align: center;
+    padding: 30px 0 10px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  .open #global-nav {
+    -webkit-transform: translateY(556px);
+    -ms-transform: translateY(556px);
+    transform: translateY(556px);
+  }
+  #global-nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #global-nav ul li {
+    width: 100%;
+  }
+  #global-nav ul li a {
+    color: #d4d4d4;
+    font-weight: 700;
+    display: block;
+    padding: 18px 0;
+  }
+  /* smartphone drawer menu Button */  
+  #nav-toggle {
+    display: block;
+  }
+  .open #nav-toggle span:nth-child(1) {
+    top: -10px;
+    transform: translateY(20px) rotate(-45deg);
+  }
+  .open #nav-toggle span:nth-child(2) {
+    width: 0;
+    left: 50%;
+  }
+  .open #nav-toggle span:nth-child(3) {
+    top: 30px;
+    transform: translateY(-20px) rotate(45deg);
   }
 }

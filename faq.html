@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/common/footer.css">
   <link rel="stylesheet" href="css/faq.css">
   <title>FAQ</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 </head>
 <body>
   <!-- nav -->
@@ -24,7 +25,31 @@
       <a href="./manual.html" class="white">使い方マニュアル</a>
       <a href="./faq.html" class="white">よくあるご質問</a>
     </div>
-    <div class="responsive_menu">ハンバーガー</div>
+    <div id="global-nav">
+      <ul>
+        <li><a href="./top.html">サービス概要</a></li>
+        <li><a href="./price.html">ご利用料金</a></li>
+        <li><a href="./manual.html">使い方マニュアル</a></li>
+        <li><a href="./faq.html">よくあるご質問</a></li>
+      </ul>
+    </div>
+    <div id="nav-toggle">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script>
+      (function($) {
+        $(function() {
+          const $nav = $('#nav');
+          $('#nav-toggle').on('click', function(){
+            $nav.toggleClass('open');
+          });
+        });
+      })(jQuery);
+    </script>
   </nav>
   
   <!-- header -->
