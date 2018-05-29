@@ -6,7 +6,8 @@
   height: 100%;
 }
 #top_header .top_header_btn{
-  background: #eb5933;
+  /* background: #eb5933; */
+  background-image: -webkit-linear-gradient(45deg, #ff8b5f 0%, #FFC107 100%);
   width: 46%;
   height: 70px;
   font-size: 28px;
@@ -50,7 +51,7 @@
 }
 /* good_point */
 #top_main .goodpoints{
-  width: 970px;
+  width: 900px;
   margin: 0 auto;
 }
 /* good_point1 */
@@ -153,7 +154,7 @@
 /* 実績 */
 #top_main .performance_area{
   padding: 100px 0;
-  width: 970px;
+  width: 900px;
   margin: 0 auto;
 }
 #top_main .performance_area h1{
@@ -180,7 +181,7 @@
 /* お客様の声 */
 #top_main .voice{
   padding: 40px 0 120px;
-  width: 970px;
+  width: 900px;
   margin: 0 auto;
 }
 #top_main .voice h1{
@@ -214,6 +215,7 @@
     width: 40%;
     height: 50px;
     font-size: 20px;
+    letter-spacing: 3px;
   }
   /* top_main */
   #top_main .goodpoint_bunner h1{
@@ -226,21 +228,28 @@
   }
   /* good_point */
   #top_main .goodpoints{
-    width: 750px;
+    width: 700px;
   }
   /* good_point1 */
   #top_main .goodpoints .good_point1 .border_area1{
-    padding: 50px;
+    padding: 30px;
   }
   /* good_point2 */
   #top_main .goodpoints .good_point2 .border_area2{
-    padding: 50px 0 50px 70px;
+    padding: 50px 0 50px 60px;
   }
   /* good_point3 */
   #top_main .goodpoints .good_point3 .border_area3{
-    padding: 50px;
+    padding: 30px;
   }
-  /* お問い合わせ、３０日間プレミアム会員体験エリア */
+  /* goodpointの共通部分 */
+#top_main .goodpoints h3{
+  padding: 0 0 30px;
+}
+#top_main .goodpoints p{
+  padding: 0 0 50px;
+}
+    /* お問い合わせ、３０日間プレミアム会員体験エリア */
   #top_main .cnsultation_area{
     height: 300px;
   }
@@ -262,11 +271,11 @@
   }
   /* 実績 */
   #top_main .performance_area{
-    width: 750px;
+    width: 700px;
   }
   /* お客様の声 */
   #top_main .voice{
-    width: 750px;
+    width: 700px;
   }
   #top_main .voice .text_area .text{
     padding: 0 0 0 50px;
@@ -277,7 +286,7 @@
   #top_header .top_header_btn{
     width: 38%;
     height: 30px;
-    font-size: 11px;
+    font-size: 10px;
     letter-spacing: 0px;
   }
   /* top_main */
@@ -318,7 +327,7 @@
   }
   /* good_point1 */
   #top_main .goodpoints .good_point1{
-    padding: 20px 0;
+    padding: 70px 0 20px;
   }
   #top_main .goodpoints .good_point1 .border_area1{
     border: none;
@@ -342,7 +351,7 @@
   }
   /* good_point3 */
   #top_main .goodpoints .good_point3{
-    padding: 20px 0;
+    padding: 20px 0 50px;
   }
   #top_main .goodpoints .good_point3 .border_area3{
     border: none;
@@ -370,18 +379,23 @@
     width: 100%;
   }
   #top_main .cnsultation_area p{
-    width: 450px;
+    padding: 0 30px 0;
     text-align: center;
     line-height: 1.5
   }
   #top_main .cnsultation_area .btn_area{
-    width: 500px;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
   }
   #top_main .cnsultation_area .btn_area .left_btn,
   #top_main .cnsultation_area .btn_area .right_btn{
+    background-image: -webkit-linear-gradient(45deg, #ff8b5f 0%, #FFC107 100%);
+    margin: 10px 0 0;
     padding: 0 20px;
     letter-spacing: 2px;
     font-size: 12px;
+    border-radius: 50px;
   }
   /* 実績 */
   #top_main .performance_area{
@@ -393,11 +407,17 @@
   }
   #top_main .performance_area .performance_introduction_area{
     padding: 30px 0 0;
+    flex-wrap: wrap;
+  }
+  #top_main .performance_area .performance_introduction_area .performances{
+    padding: 0 0 70px;
+    width: 50%;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #top_main .performance_area .performance_introduction_area .performances{
-    padding: 0 0 30px;
+  #top_main .performance_area .performance_introduction_area .performances img{
+    width: 120px;
   }
   #top_main .performance_area .performance_introduction_area .performances .text_area,
   #top_main .performance_area .performance_introduction_area .performances .text_area .theme{
@@ -413,16 +433,20 @@
   }
   #top_main .voice .text_area{
     padding: 30px 0 0;
+    flex-direction: column;
+    align-items: center;
   }
   #top_main .voice .text_area img{
     width: 150px;
     height: 150px;
   }
   #top_main .voice .text_area .text{
-    padding: 0 0 0 20px;
+    padding: 0;
   }
   #top_main .voice .text_area .text h2{
+    padding: 20px 0 0;
     font-size: 18px;
+    text-align: center;
   }
   #top_main .voice .text_area .text p{
     padding: 18px 0 0;
