@@ -11,22 +11,49 @@
   <link rel="stylesheet" href="css/common/footer.css">
   <link rel="stylesheet" href="css/top.css">
   <title>トップ</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>  
 </head>
 <body>
   <!-- nav -->
   <nav id="nav" class="flex content_between items_center">
-    <div class="nav_left">
+    <a href="./top.html" class="nav_left">
       <img src="images/logo.png">
-    </div>
+    </a>
     <div class="nav_right flex content_between">
-      <a href="./top.html" class="white">サービス概要</a>
+      <a href="./top.html" class="white">トップ</a>
+      <a href="./about.html" class="white">サービス概要</a>
       <a href="./price.html" class="white">ご利用料金</a>
-      <a href="./manual.html" class="white">使い方マニュアル</a>
+      <a href="http://amaze-logi.com/archives/sedologi" target="_blank" class="white">使い方マニュアル</a>
       <a href="./faq.html" class="white">よくあるご質問</a>
     </div>
-    <div class="responsive_menu">ハンバーガー</div>
+    <div id="global-nav">
+      <ul>
+        <li><a href="./top.html">トップ</a></li>
+        <li><a href="./about.html">サービス概要</a></li>
+        <li><a href="./price.html">ご利用料金</a></li>
+        <li><a href="http://amaze-logi.com/archives/sedologi" target="_blank">使い方マニュアル</a></li>
+        <li><a href="./faq.html">よくあるご質問</a></li>
+      </ul>
+    </div>
+    <div id="nav-toggle">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script>
+      (function($) {
+        $(function() {
+          const $nav = $('#nav');
+          $('#nav-toggle').on('click', function(){
+            $nav.toggleClass('open');
+          });
+        });
+      })(jQuery);
+    </script>
   </nav>
-
+  
   <!-- header -->
   <header id="top_header" class="flex content_center">
     <img src="images/1_v2_1.jpg">
@@ -36,7 +63,7 @@
       30日プレミアム会員体験
     </a> -->
   </header>
-
+  
   <!-- main -->
   <main id="top_main" class="flex content_center flow_column">
     <section class="goodpoint_bunner text_center">
@@ -49,7 +76,7 @@
         </div>
       </div>
     </section>
-
+    
     <!-- good_point1 -->
     <section class="goodpoints">
       <div class="good_point1">
@@ -61,7 +88,7 @@
         </div>
         <img src="images/top02_img01.png">
       </div>
-
+      
       <!-- good_point2 -->
       <div class="good_point2 flex content_end">
         <div class="border_area2">
@@ -72,7 +99,7 @@
         </div>
         <img src="images/top02_img02.png">
       </div>
-
+      
       <!-- good_point3 -->
       <div class="good_point3">
         <div class="border_area3">
@@ -84,15 +111,15 @@
         <img src="images/top02_img03.png">
       </div>
     </section>
-
+    
     <section class="cnsultation_area flex flow_column items_center content_center">
       <p class="white flex content_center">関税建替にも対応しており、お客様にあったフレキシブルな対応が可能です。ご相談ください。</p>
       <div class="btn_area flex content_around">
-        <a href="#" class="left_btn box_shadow flex content_center items_center black">お問い合わせ</a>
         <a href="#" class="right_btn box_shadow flex content_center items_center black">３０日プレミアム会員体験</a>
+        <a href="#" class="left_btn box_shadow flex content_center items_center black">お問い合わせ</a>
       </div>
     </section>
-
+    
     <section class="performance_area">
       <h1 class="flex content_center">実績</h1>
       <div class="performance_introduction_area flex content_between">
@@ -126,7 +153,7 @@
         </div>
       </div>
     </section>
-
+    
     <section class="voice">
       <h1 class="flex content_center">お客様の声</h1>
       <div class="text_area flex">
@@ -141,18 +168,24 @@
         </div>
       </div>
     </section>
-
+    
   </main>
-
+  
   <!-- footer -->
   <footer id="footer">
-    <img src="https://placehold.jp/cc9999/993333/1000x200.png">
+    <div class="footer_apply_area">
+      <p class="footer_apply_title">24時間受け付け中！</p>
+      <div class="footer_apply_btns">
+        <a class="apply_btn" href="#">30日無料体験</a>
+        <a class="apply_btn" href="#">お問い合わせ</a>
+      </div>
+    </div>
     <div class="menus_area flex">
       <div class="left_area">
         <p class="footer_menu_title">Menu</p>
         <a href="./top.html" class="table">サービス概要</a>
         <a href="./price.html" class="table">ご利用料金</a>
-        <a href="./manual.html" class="table">使い方マニュアル</a>
+        <a href="./about.html" class="table">使い方マニュアル</a>
         <a href="./faq.html" class="table">よくあるご質問</a>
       </div>
       <div class="right_area">
