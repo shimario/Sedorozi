@@ -30,6 +30,8 @@
   flex: 1;
 }
 #footer .footer_menu_title {
+  display: inline-block;
+  color: black;
   font-weight: bold;
   padding: 0 0 10px;
 }
